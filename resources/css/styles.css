@@ -1,0 +1,51 @@
+/* import _scss files here to compile into one .css */
+/* Color Theme Swatches in Hex */
+/*
+ * CS50 Programming with Pytnon and Javascript
+ * 
+ * Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and  * the .class selector at least once.
+ * Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
+ * Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
+ */
+table #messi, table #mayweather, table #ronaldo {
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline; }
+
+body {
+  color: #26011C; }
+
+.navbar {
+  margin-bottom: 20px; }
+
+a {
+  color: #73B2D9; }
+
+a:hover {
+  color: #73B2D9; }
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+table #messi {
+  color: #F24405; }
+
+table #mayweather {
+  color: #194A2F; }
+
+table #ronaldo {
+  color: #26011C; }
+
+ul lh {
+  font-size: 1.5em;
+  font-weight: bold; }
+
+#footer .fixed-bottom {
+  position: fixed;
+  right: auto !important;
+  left: auto !important; }
+
+#footer .navbar {
+  margin-bottom: 0px; }
+
+/*# sourceMappingURL=styles.css.map */

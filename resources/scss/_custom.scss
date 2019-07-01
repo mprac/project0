@@ -1,0 +1,65 @@
+/*
+ * CS50 Programming with Pytnon and Javascript
+ * 
+ * Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and  * the .class selector at least once.
+ * Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
+ * Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
+ */
+%links {
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ body {
+    color: $brown0;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+ a {
+    color: $blue0;
+}
+a:hover {
+    color: $blue0;
+}
+table {
+    tr:nth-child(even) {
+        background-color: $lightgrey0;
+    }
+    #messi {
+        @extend %links;
+        color: $red0;
+    }
+    #mayweather {
+        @extend %links;
+        color: $green0;
+    }
+    #ronaldo {
+        @extend %links;
+        color: $brown0;
+    }
+
+}
+ul {
+    lh {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    
+     
+}
+#footer {
+.fixed-bottom {
+    position: fixed;
+    right: auto !important; 
+
+    left: auto !important;
+
+   
+}
+.navbar {
+    margin-bottom: 0px;
+}
+}
+ 
