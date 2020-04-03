@@ -13,3 +13,7 @@ You must use Bootstrap 4 on your website, taking advantage of at least one Boots
 Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
 
+# Projet 0 description
+
+For project 0 I chose to create a website ranking some of the highest paid athletes. There are 4 html files, 1 css file that was generated using SASS/SCSS. The index.html file contains the table and the 3 other html files contain an unordered list and uses bootstraps grid model using class col-6 in 2 divs with a div using class row as a parent to create 2 columns where one half is the image of the athlete and the other holds the unordered list. 
+

@@ -1,7 +1,7 @@
 /* import _scss files here to compile into one .css */
 /* Color Theme Swatches in Hex */
 /*
- * CS50 Programming with Pytnon and Javascript
+ * CS50 Programming with Python and Javascript
  * 
  * Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and  * the .class selector at least once.
  * Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
@@ -47,5 +47,9 @@ ul lh {
 
 #footer .navbar {
   margin-bottom: 0px; }
+
+@media (max-width: 576px) {
+  h1.display-4 {
+    font-size: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */
